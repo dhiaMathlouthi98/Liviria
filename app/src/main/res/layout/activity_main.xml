@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:background="@color/yellow"
+        android:text="LIVRIA" />
+
+
+
+
+
+
+
+
+
+      <Button
+            android:id="@+id/ajouterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:backgroundTint="@color/yellow"
+            android:text="Ajouter"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+</LinearLayout>
+
+
+
