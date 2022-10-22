@@ -17,25 +17,43 @@
         android:background="@color/yellow"
         android:text="LIVRIA" />
 
+    <Button
+        android:id="@+id/ajouterBtn"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:text="Ajouter"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    android:orientation="horizontal" >
 
 
-
-
-
-
-
-
-      <Button
-            android:id="@+id/ajouterBtn"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="350dp"
-            android:backgroundTint="@color/yellow"
-            android:text="Ajouter"
-            android:textAlignment="center"
-            android:textColor="@color/black" />
+            android:layout_marginRight="20dp"
+
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+
+            android:text="Button" />
+    </LinearLayout>
+
 
 </LinearLayout>
+
+
 
 
 
