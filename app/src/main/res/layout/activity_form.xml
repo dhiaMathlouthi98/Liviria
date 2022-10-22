@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Form">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Commande"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="@color/yellow"
+        
+        ></TextView>
+
+    <EditText
+        android:id="@+id/NomClientET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Nom du Client " />
+
+
+    <CheckBox
+        android:id="@+id/LivreCB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Livré" />
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/CommentaireET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Commentaire"
+        android:layout_margin="25sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/ValiderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/AnnulerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/Grey"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
