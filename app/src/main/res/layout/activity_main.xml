@@ -10,12 +10,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+         android:textAlignment="center"
         android:padding="10sp"
         android:textSize="28sp"
         android:textColor="@color/black"
         android:background="@color/yellow"
         android:text="LIVRIA" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/ajouterBtn"
