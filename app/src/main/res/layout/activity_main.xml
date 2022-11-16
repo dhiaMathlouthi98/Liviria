@@ -20,13 +20,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="268dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/ajouterBtn"
-        android:layout_width="166dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/yellow"
@@ -42,7 +42,7 @@
 
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/modifierBtn"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
@@ -50,7 +50,7 @@
             android:text="Button" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/supprimerBtn"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
 
