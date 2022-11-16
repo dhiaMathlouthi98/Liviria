@@ -73,8 +73,5 @@ public class Form extends AppCompatActivity {
         database.commandeDAO().insertCommand(commande);
     }
 
-    public List<Commande> AfficherCommandes (){
 
-        return database.commandeDAO().GetCommands();
-    }
 }
