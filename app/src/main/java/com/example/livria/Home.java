@@ -13,7 +13,7 @@ public class Home extends AppCompatActivity {
 
 
     //Var
-     List<Commande> commandes = new ArrayList<>();
+     List<Commande> commandes = new ArrayList<Commande>();
 
      private Form form ;
 
@@ -27,7 +27,7 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        commandes= form.AfficherCommandes() ;
+      //  commandes= form.AfficherCommandes() ;
 
         //binding
 
