@@ -16,8 +16,10 @@ public class Home extends AppCompatActivity {
 
 
     //Var
+
      List<Commande> commandes = new ArrayList<>();
     private AppDataBase database ;
+
 
      private Form form ;
 
@@ -34,11 +36,13 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
         //init DataBase
         database = AppDataBase.GetInstance(this);
 
 
         commandes=this.AfficherCommandes() ;
+
 
         //binding
 
